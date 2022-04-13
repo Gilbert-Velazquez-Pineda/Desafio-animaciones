@@ -1,0 +1,84 @@
+.catalago {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
+    padding: 20px;
+    grid-gap: 10px;
+    
+}
+
+@media (min-width: 100px) {
+    .catalago{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@media (min-width: 520px) {
+    .catalago{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 728px) {
+    .catalago{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin: 30px;
+    font-size: 30px;
+    color: white;
+    
+}
+
+.objeto:nth-child(1) {
+    grid-row-start: span 3;
+}
+
+.objeto:nth-child(2) {
+    grid-row-start: span 3;
+}
+
+.objeto:nth-child(3) {
+    grid-row-start: span 3;
+}
+
+.objeto img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+
+.objeto {
+    position: relative;
+}
+
+#titulo-tarjeta {
+    position: absolute;
+    bottom:  +30px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#precio1 {
+    position: absolute;
+    color: rgb(55, 0, 255);
+    font-size: 1rem;
+    bottom: +12px;
+}
+
+#precio2 {
+    position: absolute;
+    bottom: -25px;
+    font-size: 1.5rem;
+    color: black;
+    align-items: center;
+}

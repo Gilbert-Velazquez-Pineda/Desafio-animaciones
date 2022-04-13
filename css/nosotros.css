@@ -1,0 +1,42 @@
+.caja {
+    display: flex;
+    background-color: white;
+    
+}
+
+.caja div {
+    width: 50%;
+    padding: 10px;
+   
+}
+
+.vision-mision {
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#parrafo {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ubicacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    
+}
+
+.titulo-ubicacion {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    
+}
